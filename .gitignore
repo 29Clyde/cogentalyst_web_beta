@@ -1,6 +1,7 @@
 # Cogentalyst Website .gitignore
 # Next.js + Sanity + Vercel Project
 
+
 # Dependencies
 node_modules/
 /.pnp
