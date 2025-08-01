@@ -1,0 +1,188 @@
+
+I am starting a consulting company that uses AI to automate business processes. However, the approach we take is different than that of those who focus on using the largest LLMs and invest heavily in prompt engineering. Our approach instead is to use what we refer to as Swarm Intelligence. We distill business processes down the atomic level, identifying every decision node, the criteria used for the decisions, and the possible outcomes of each node. We then select the appropriate model for each node - it could be a simple encoder only model such as roBERTa or a 7B parameter LLM - and then fine-tune the model for a specific task. While we use the best model and approach for each decision point or process, we lean heavily towards fine-tuning and away from prompt engineering in most cases. We find that excessive reliance on prompt engineering can create unknown technical debt as prompts are generally not very portable horizontally, meaning across different llm models, and have even proven to have limited portability with newer versions of the same model family. We also find that prompts can be very fragile. On the other hand, we find that fine-tuning with data allows us to achieve accuracy as good as or better than the prompt engineered models while having a much lower inference cost, especially when we are able to move to much smaller encoder only models. The cost of this approach is that the firms must make an investment in data for fine-tuning up front. And while this cost is real and not trivial, if the data is captured in a robust and methodical manner, it can be used over and over so long as the underlying data feeding the decision points is relatively stable. We have invested significant time and energy developing a robust data capture framework that allows for double and triple blind hand labeling of data that can be used for both training and model evaluation. I registered Cogentalyst.com and CogentalystSI.com. Now we need to start designing a website that explains our approach to process automation using SI.
+
+Your approach to AI automation using Swarm Intelligence sounds compelling and well-differentiated. The focus on atomic-level process decomposition, task-specific model selection, and fine-tuning over prompt engineering addresses real pain points in the market. Let me help you design a website that clearly communicates this value proposition.
+
+
+Cogentalyst - Swarm Intelligence Business Automation
+Interactive artifact 
+I've created a modern, professional website that effectively communicates your Swarm Intelligence approach. Here are the key design decisions I made:
+
+Strategic Messaging:
+
+Lead with the core differentiator: Swarm Intelligence vs. traditional prompt engineering
+Clearly articulate the atomic process decomposition methodology
+Address the upfront investment concern by framing it as a valuable, reusable asset
+Emphasize the 90%+ cost reduction and reliability benefits
+Visual Design:
+
+Modern gradient background with glassmorphism effects
+Clean, professional typography that's easy to scan
+Animated elements that engage without being distracting
+Responsive design that works on all devices
+Content Structure:
+
+Hero section with clear value proposition
+Detailed approach explanation with visual cards
+Side-by-side comparison highlighting your advantages
+Step-by-step process visualization
+Benefits section that addresses ROI concerns
+Clear call-to-action for next steps
+Technical Features:
+
+Smooth scrolling navigation
+Intersection Observer animations
+Mobile-responsive design
+Fast loading with minimal dependencies
+The site positions Cogentalyst as the sophisticated alternative to expensive, fragile prompt-based solutions. It addresses potential concerns about upfront costs while emphasizing the long-term value and competitive advantages of your approach.
+
+Would you like me to modify any sections, adjust the messaging, or add additional features like case studies or technical documentation sections?
+
+
+
+
+write a markdown design document for the proposed website. Begin with technical requirements and guidance to include best practices which must be adhered to. Plan on a Vercel deployment. For now, we will keep the web page fairly basic until we have time to refine and expand our content. Quality is more important than quantity. The tech stack will be:
+* Architecture: Jamstack
+* Front-End Framework: Next.js (React)
+* Back-End (Content): Headless CMS (Sanity, Contentful, or Storyblok recommended)
+* Hosting: Vercel
+
+
+Cogentalyst Website Design Document
+Document 
+I've created a comprehensive design document that covers all the technical and strategic aspects of your Cogentalyst website. The document is structured to guide development from initial setup through launch and ongoing maintenance.
+
+Key highlights of the document:
+
+Technical Foundation: Detailed specifications for Next.js 14, Sanity CMS, and Vercel deployment with performance benchmarks and security requirements
+Content Strategy: Clear positioning around your Swarm Intelligence approach with specific messaging guidelines and SEO focus
+Design System: Professional visual identity that reinforces your technical sophistication while remaining approachable
+Implementation Roadmap: Phased approach prioritizing an MVP launch followed by content expansion and enhancements
+Quality Standards: Specific metrics for performance, accessibility, and user experience that align with modern web standards
+The document emphasizes your core differentiators - atomic process decomposition, task-specific model selection, and fine-tuning over prompt engineering - while addressing the common concern about upfront investment costs.
+
+Would you like me to expand on any particular section, such as the technical specifications for the Sanity schema definitions, or would you prefer additional detail on the SEO strategy and content planning?
+
+
+
+
+what would be a good .gitignore emplate to use for this project
+
+
+Cogentalyst .gitignore Template
+Code 
+
+
+
+
+# Cogentalyst Website .gitignore
+# Next.js + Sanity + Vercel Project
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+.next
+
+# Production builds
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Vercel
+.vercel
+.vercel.json
+
+# Sanity
+/sanity/dist
+/sanity/.sanity
+/sanity/node_modules
+
+# Testing
+/coverage
+*.lcov
+.nyc_output
+
+# Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
