@@ -106,7 +106,7 @@ export default function QADemo() {
                       onClick={() => setInput(question)}
                       className="block w-full text-left p-3 bg-neutral-50 hover:bg-neutral-100 rounded-lg text-neutral-700 transition-colors"
                     >
-                      "{question}"
+                      &ldquo;{question}&rdquo;
                     </button>
                   ))}
                 </div>

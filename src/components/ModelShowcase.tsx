@@ -29,9 +29,9 @@ export default function ModelShowcase() {
             <div className="mb-6">
               <p className="text-sm font-medium text-neutral-600 mb-2">Try asking:</p>
               <ul className="text-sm text-neutral-600 space-y-1">
-                <li>• "What are the DTI requirements for conventional loans?"</li>
-                <li>• "What credit score is required for Fannie Mae loans?"</li>
-                <li>• "What are the income documentation requirements?"</li>
+                <li>• &ldquo;What are the DTI requirements for conventional loans?&rdquo;</li>
+                <li>• &ldquo;What credit score is required for Fannie Mae loans?&rdquo;</li>
+                <li>• &ldquo;What are the income documentation requirements?&rdquo;</li>
               </ul>
             </div>
             <Link
