@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Cogentalyst</h3>
             <p className="text-neutral-300 text-sm">
-              Advanced AI solutions using Swarm Intelligence methodology for business process automation.
+              Strategic AI consulting and custom model development for the financial services industry.
             </p>
           </div>
 
@@ -21,8 +21,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/our-approach" className="text-neutral-300 hover:text-white transition-colors text-sm">
-                  Our Approach
+                <Link href="/#model-showcase" className="text-neutral-300 hover:text-white transition-colors text-sm">
+                  Model Demos
                 </Link>
               </li>
               <li>

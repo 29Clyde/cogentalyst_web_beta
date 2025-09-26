@@ -17,20 +17,20 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <Link 
-              href="/" 
+            <Link
+              href="/"
               className="text-neutral-600 hover:text-primary transition-colors font-medium"
             >
               Home
             </Link>
-            <Link 
-              href="/our-approach" 
+            <Link
+              href="/#model-showcase"
               className="text-neutral-600 hover:text-primary transition-colors font-medium"
             >
-              Our Approach
+              Model Demos
             </Link>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="bg-accent text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
             >
               Contact
@@ -57,22 +57,22 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-neutral-100">
             <div className="flex flex-col space-y-4">
-              <Link 
-                href="/" 
+              <Link
+                href="/"
                 className="text-neutral-600 hover:text-primary transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
-              <Link 
-                href="/our-approach" 
+              <Link
+                href="/#model-showcase"
                 className="text-neutral-600 hover:text-primary transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Our Approach
+                Model Demos
               </Link>
-              <Link 
-                href="/contact" 
+              <Link
+                href="/contact"
                 className="bg-accent text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors font-medium text-center"
                 onClick={() => setIsMenuOpen(false)}
               >

@@ -132,7 +132,7 @@ export default function ContactForm() {
           value={formData.message}
           onChange={handleChange}
           className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none"
-          placeholder="Tell us about your business processes and automation goals..."
+          placeholder="Tell us about your AI strategy needs and business objectives..."
         />
       </div>
 

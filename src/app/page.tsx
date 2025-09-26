@@ -1,8 +1,9 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
-import ProblemSolution from '@/components/ProblemSolution';
-import HowItWorks from '@/components/HowItWorks';
+import Services from '@/components/ProblemSolution';
+import ModelShowcase from '@/components/ModelShowcase';
+import About from '@/components/About';
 
 export default function Home() {
   return (
@@ -10,8 +11,9 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <ProblemSolution />
-        <HowItWorks />
+        <Services />
+        <ModelShowcase />
+        <About />
       </main>
       <Footer />
     </>

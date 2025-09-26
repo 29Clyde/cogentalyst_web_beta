@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Cogentalyst - Swarm Intelligence for Business Process Automation',
+    default: 'Cogentalyst - Intelligent Business Process Automation',
     template: '%s | Cogentalyst'
   },
   description: 'Advanced AI solutions using Swarm Intelligence methodology for business process automation. Beyond prompt engineering - precise, cost-effective, and reliable AI automation.',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://cogentalyst.com',
     siteName: 'Cogentalyst',
-    title: 'Cogentalyst - Swarm Intelligence for Business Process Automation',
+    title: 'Cogentalyst - Intelligent Business Process Automation',
     description: 'Advanced AI solutions using Swarm Intelligence methodology for business process automation. Beyond prompt engineering.',
     images: [
       {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cogentalyst - Swarm Intelligence for Business Process Automation',
+    title: 'Cogentalyst - Intelligent Business Process Automation',
     description: 'Advanced AI solutions using Swarm Intelligence methodology for business process automation. Beyond prompt engineering.',
     images: ['/og-image.jpg'],
   },

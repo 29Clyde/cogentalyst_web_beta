@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata = {
-  title: 'Contact Us - Get Started with Swarm Intelligence | Cogentalyst',
-  description: 'Ready to transform your business processes with AI? Contact Cogentalyst to discuss your automation needs and discover how our Swarm Intelligence approach can help.',
+  title: 'Contact Us - Strategic AI for Financial Services | Cogentalyst',
+  description: 'Ready to transform your financial services with AI? Contact Cogentalyst to discuss your business needs and discover how our strategic AI solutions can help.',
 };
 
 export default function Contact() {
@@ -17,12 +17,12 @@ export default function Contact() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Let&apos;s Build Your AI Swarm
+                Let&apos;s Build Your AI Strategy
               </h1>
               <p className="text-xl md:text-2xl text-neutral-300 leading-relaxed">
-                Ready to move beyond prompt engineering? Tell us about your 
-                automation challenges and let&apos;s discuss how Swarm Intelligence 
-                can transform your business processes.
+                Ready to harness AI for your financial services business? Tell us about your
+                challenges and let&apos;s discuss how strategic AI solutions
+                can drive your business value.
               </p>
             </div>
           </div>
@@ -38,8 +38,8 @@ export default function Contact() {
                   Start the Conversation
                 </h2>
                 <p className="text-lg text-neutral-600 mb-8">
-                  Share details about your business processes and automation goals. 
-                  We&apos;ll respond within 24 hours with insights on how our approach 
+                  Share details about your business objectives and AI strategy needs.
+                  We&apos;ll respond within 24 hours with insights on how our approach
                   can help.
                 </p>
                 <ContactForm />
@@ -91,13 +91,13 @@ export default function Contact() {
                       <svg className="w-4 h-4 text-accent mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
-                      Analysis of your current automation challenges
+                      Analysis of your current business challenges
                     </li>
                     <li className="flex items-start">
                       <svg className="w-4 h-4 text-accent mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
-                      Custom proposal for your Swarm Intelligence solution
+                      Custom proposal for your AI strategy solution
                     </li>
                     <li className="flex items-start">
                       <svg className="w-4 h-4 text-accent mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
